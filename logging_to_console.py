@@ -2,7 +2,7 @@ import logging
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.CRITICAL)
 
     logging.debug("This is a debug message.")
     logging.info("This is an info message.")
